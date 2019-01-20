@@ -1,4 +1,8 @@
 # vue工程自动化
+## 简介
+1. vue代码中template、script代码按照eslint规范提示报错，style部分由stylelint提示报错
+2. 格式化时自动修复（默认按键shift+alt+f）
+3. 支持提交代码时进行校验，如果有报错不能通过提交
 
 ## 安装vscode插件
 - vetur（vue代码格式化）
@@ -165,5 +169,5 @@ module.exports = {
 ## 命令行指令
 1. `npm run serve` 在线运行
 1. `npm run build` 打包命令
-1. `npm run lint` 用eslint检查代码错误
-1. `npm run lint:fix` 修复eslint错误
+1. `npm run lint` 用eslint检查所有代码错误
+1. `npm run lint:fix` 修复所有可fix的eslint错误
