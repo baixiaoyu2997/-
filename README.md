@@ -1,4 +1,4 @@
-# vue工程自动化
+# 前端vue环境搭建
 ## 简介
 1. vue代码中template、script代码按照eslint规范提示报错，style部分由stylelint提示报错
 2. 格式化时自动修复（默认按键shift+alt+f）
