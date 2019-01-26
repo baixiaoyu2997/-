@@ -129,7 +129,7 @@ module.exports = {
   plugins: ['standard', 'vue', 'prettier'],
   // 这里填入你的项目需要的个性化配置
   rules: {
-    'prettier/prettier': ['error', { semi: false, singleQuote: true }],
+    'prettier/prettier': ['error', { semi: false, singleQuote: true,printWidth:120 }],
     'vue/html-self-closing': [
       'error',
       {

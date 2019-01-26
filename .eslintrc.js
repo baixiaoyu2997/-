@@ -17,7 +17,10 @@ module.exports = {
   plugins: ['standard', 'vue', 'prettier'],
   // 这里填入你的项目需要的个性化配置
   rules: {
-    'prettier/prettier': ['error', { semi: false, singleQuote: true }],
+    'prettier/prettier': [
+      'error',
+      { semi: false, singleQuote: true, printWidth: 120 }
+    ],
     'vue/html-self-closing': [
       'error',
       {
@@ -27,7 +30,7 @@ module.exports = {
       }
     ],
     'vue/name-property-casing': 'off', // eslint-plugin-vue规则去这查看https://vuejs.github.io/eslint-plugin-vue/rules/
-    'vue/attribute-hyphenation':'off',
+    'vue/attribute-hyphenation': 'off',
     'no-debugger': process.env.NODE_ENV === 'production' ? 'error' : 'off'
   },
   // 此项是用来指定javaScript语言类型和风格
